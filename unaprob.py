@@ -343,7 +343,7 @@ class CircuitSimulation:
                 draw = ImageDraw.Draw(img)
                 
                 # Draw title
-                draw.text((400, 20), "Quantum Circuit Simulation with Reset Until p=1 AND t=1", 
+                draw.text((400, 20), "Quantum Circuit Simulation with Reset", 
                           fill=(0, 0, 0), font=title_font, anchor="ms")
                 
                 # Draw component states (Left panel)
